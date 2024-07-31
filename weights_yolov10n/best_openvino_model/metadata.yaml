@@ -1,0 +1,19 @@
+description: Ultralytics YOLOv10n model trained on D:/Srivatsav/OD-WeaponDetection-master/OD-WeaponDetection-master/config.yaml
+author: Ultralytics
+date: '2024-07-25T11:37:00.755298'
+version: 8.2.31
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: billete
+  1: knife
+  2: monedero
+  3: pistol
+  4: smartphone
+  5: tarjeta

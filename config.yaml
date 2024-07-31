@@ -1,0 +1,16 @@
+
+path: D:/objectdetection/Srivatsav/OD-WeaponDetection-master/OD-WeaponDetection-master/Data/  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/validation  # val images (relative to 'path')
+
+
+
+names:
+  0: billete 
+  1: knife
+  2: monedero
+  3: pistol
+  4: smartphone
+  5: tarjeta
+
+batch: 32  # (int) number of images per batch (-1 for AutoBatch)
